@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Syne", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-body: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+@layer base {
+  body {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: #161815;
+    background-color: #FAF7F2;
+  }
+
+  h1, h2, h3, h4, .font-display {
+    font-family: "Syne", sans-serif;
+    letter-spacing: -0.02em;
+  }
+}
+
+@keyframes marquee {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-50%); }
+}
+
+@keyframes marquee-reverse {
+  0% { transform: translateX(-50%); }
+  100% { transform: translateX(0%); }
+}
+
+.animate-marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee 28s linear infinite;
+}
+
+.animate-marquee-reverse {
+  display: flex;
+  width: max-content;
+  animation: marquee-reverse 32s linear infinite;
+}
+
+.animate-marquee:hover,
+.animate-marquee-reverse:hover {
+  animation-play-state: paused;
+}
+
+/* Custom organic shapes & decorative mask helpers */
+.blob-shape-1 {
+  border-radius: 64% 36% 70% 30% / 49% 62% 38% 51%;
+}
+
+.blob-shape-2 {
+  border-radius: 41% 59% 47% 53% / 44% 45% 55% 56%;
+}
+
+.blob-shape-arch {
+  border-radius: 160px 160px 32px 32px;
+}
