@@ -26,7 +26,7 @@ export const WhyKbee: React.FC<WhyKbeeProps> = ({ onBookAppointment }) => {
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
+
         {/* Section Header */}
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 sm:mb-20">
           <div>
@@ -58,9 +58,9 @@ export const WhyKbee: React.FC<WhyKbeeProps> = ({ onBookAppointment }) => {
                   <span className="font-display font-black text-5xl sm:text-6xl text-white/20 group-hover:text-[#F05A24] transition-colors">
                     {benefit.number}
                   </span>
-                  <div className="p-3 rounded-2xl bg-white/5 border border-white/10 group-hover:scale-110 transition-transform">
+                  {/* <div className="p-3 rounded-2xl bg-white/5 border border-white/10 group-hover:scale-110 transition-transform">
                     {iconMap[benefit.iconName] || <Sparkles className="w-6 h-6 text-[#80ED99]" />}
-                  </div>
+                  </div> */}
                 </div>
 
                 {/* Subtitle / Archetype */}
@@ -82,7 +82,7 @@ export const WhyKbee: React.FC<WhyKbeeProps> = ({ onBookAppointment }) => {
               {/* Bottom Subtle Indicator */}
               <div className="mt-8 pt-4 border-t border-white/10 flex items-center justify-between text-xs font-bold text-white/50 group-hover:text-white transition-colors">
                 <span>Certified Naturalists</span>
-                <span className="text-[#F05A24]">✦</span>
+
               </div>
             </div>
           ))}

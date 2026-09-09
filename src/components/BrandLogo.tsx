@@ -41,47 +41,22 @@ export const BrandLogo: React.FC<BrandLogoProps> = ({
           border: '1.5px solid rgba(240, 90, 36, 0.4)'
         }}
       >
-        <svg
-          viewBox="0 0 40 40"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-          className="w-3/4 h-3/4"
-        >
-          {/* Crown Peaks in Bold Brand Orange */}
-          <path
-            d="M8 26L12 14L20 21L28 14L32 26H8Z"
-            fill="#F05A24"
-          />
-          {/* Botanical Curl / Honeycomb center leaf in fresh bright natural green */}
-          <path
-            d="M20 9C20 9 24 13 24 16C24 18.2 22.2 20 20 20C17.8 20 16 18.2 16 16C16 13 20 9 20 9Z"
-            fill="#80ED99"
-          />
-          {/* Base Crown band with 3 jewels */}
-          <rect x="8" y="27" width="24" height="4" rx="2" fill="#FAF7F2" />
-          <circle cx="13" cy="29" r="1.2" fill="#F05A24" />
-          <circle cx="20" cy="29" r="1.2" fill="#1F4D2B" />
-          <circle cx="27" cy="29" r="1.2" fill="#F05A24" />
-        </svg>
+        <span style={{ color: "white" }}>KB</span>
 
-        {/* Small floating orange accent sparkle */}
-        <span className="absolute -top-1 -right-1 w-2.5 h-2.5 rounded-full bg-[#F05A24] ring-2 ring-white" />
       </div>
 
       {/* Typography */}
       <div className="flex flex-col">
         <span
-          className={`font-display font-extrabold leading-none ${textSizes[size]} ${
-            isLight ? 'text-white' : 'text-[#161815]'
-          }`}
+          className={`font-display font-extrabold leading-none ${textSizes[size]} ${isLight ? 'text-white' : 'text-[#161815]'
+            }`}
         >
           KBee
           <span className="text-[#F05A24] ml-0.5 font-bold">.</span>
         </span>
         <span
-          className={`font-sans font-bold uppercase ${subtextSizes[size]} ${
-            isLight ? 'text-[#80ED99]' : 'text-[#1F4D2B]'
-          }`}
+          className={`font-sans font-bold uppercase ${subtextSizes[size]} ${isLight ? 'text-[#80ED99]' : 'text-[#1F4D2B]'
+            }`}
         >
           Naturals
         </span>

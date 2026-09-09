@@ -95,7 +95,7 @@ export default function App() {
         <WhyKbee onBookAppointment={() => handleOpenBooking()} />
 
         {/* 8. Before & After Transformation */}
-        <BeforeAfter />
+        {/* <BeforeAfter /> */}
 
         {/* 9. Testimonials */}
         <Testimonials />

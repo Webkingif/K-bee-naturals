@@ -13,7 +13,7 @@ export const ContactLocation: React.FC = () => {
 
   const openGoogleMaps = () => {
     const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
-      'Admiralty Way Lekki Phase 1 Lagos Nigeria'
+      '42, Iwaya Road, Onike Yaba, Lagos Nigeria'
     )}`;
     window.open(mapsUrl, '_blank', 'noopener,noreferrer');
   };
@@ -21,7 +21,7 @@ export const ContactLocation: React.FC = () => {
   return (
     <section id="contact" className="py-20 lg:py-32 bg-[#FAF7F2] relative">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
+
         {/* Section Header */}
         <div className="mb-12 sm:mb-16">
           <div className="inline-flex items-center gap-2 mb-3">
@@ -37,10 +37,10 @@ export const ContactLocation: React.FC = () => {
 
         {/* 2-Column Layout: Details on Left, Stylized Lagos Map Visual on Right */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-stretch">
-          
+
           {/* Left Column: Salon Details Cards */}
           <div className="lg:col-span-6 flex flex-col justify-between gap-6">
-            
+
             {/* Address Card */}
             <div className="bg-white p-7 rounded-3xl border border-[#1F4D2B]/10 shadow-xs hover:border-[#F05A24]/40 transition-colors">
               <div className="flex items-start gap-4">
@@ -172,8 +172,8 @@ export const ContactLocation: React.FC = () => {
           {/* Right Column: Stylized Lagos Interactive Map Visual */}
           <div className="lg:col-span-6 flex flex-col">
             <div className="relative w-full h-full min-h-[420px] rounded-3xl overflow-hidden bg-stone-900 border-2 border-[#1F4D2B]/15 shadow-xl flex flex-col justify-between p-6 sm:p-8 text-white">
-              
-              {/* Map Canvas Background Illustration (Stylized Lekki Peninsula / Lagos Lagoon) */}
+
+              {/* Map Canvas Background Illustration (Stylized / Lagos Lagoon) */}
               <div className="absolute inset-0 opacity-40">
                 <svg className="w-full h-full object-cover" viewBox="0 0 500 500" fill="none">
                   {/* Lagos Lagoon Waterway in Deep Green */}
@@ -209,7 +209,7 @@ export const ContactLocation: React.FC = () => {
               {/* Top Map Badges */}
               <div className="relative z-10 flex items-center justify-between">
                 <div className="px-3.5 py-1.5 rounded-full bg-black/60 backdrop-blur-md border border-white/20 text-xs font-black tracking-wider uppercase text-white">
-                  LAGOS • LEKKI PHASE 1
+                  LAGOS • Iwaya Yaba
                 </div>
                 <div className="px-3 py-1 rounded-full bg-[#1F4D2B] text-[#80ED99] text-xs font-bold">
                   Open Today
@@ -226,7 +226,7 @@ export const ContactLocation: React.FC = () => {
                   <div className="bg-white/95 text-[#161815] px-4 py-2 rounded-xl shadow-xl font-display font-black text-sm">
                     KBee Naturals Salon
                     <div className="text-[11px] font-sans font-semibold text-[#F05A24]">
-                      14B Admiralty Way, Lekki 1
+                      Iwaya Yaba
                     </div>
                   </div>
                 </div>

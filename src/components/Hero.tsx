@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowRight, Sparkles, Star, MapPin, Heart } from 'lucide-react';
+import { ArrowRight, ArrowDown, Sparkles, Star, MapPin, Heart } from 'lucide-react';
 import { HERO_IMAGE } from '../data/salonData';
 
 interface HeroProps {
@@ -37,18 +37,10 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking, onExploreStyles }) =>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
-          
+
           {/* Left Column: Bold Expressive Copy & CTAs */}
           <div className="lg:col-span-7 flex flex-col justify-center text-left z-10">
-            
-            {/* Small Eyebrow Text */}
-            <div className="inline-flex items-center gap-2.5 px-4 py-2 rounded-full bg-white/90 border border-[#1F4D2B]/15 shadow-2xs w-fit mb-6">
-              <span className="w-2.5 h-2.5 rounded-full bg-[#F05A24] animate-pulse" />
-              <span className="text-xs sm:text-sm font-extrabold tracking-[0.2em] uppercase text-[#1F4D2B]">
-                NATURAL HAIR • LAGOS
-              </span>
-              <span className="text-[#F05A24] text-xs">★</span>
-            </div>
+
 
             {/* Main Headline */}
             <h1 className="font-display font-extrabold text-5xl sm:text-7xl lg:text-[5.4rem] xl:text-[6rem] leading-[0.93] tracking-[-0.03em] text-[#161815] mb-6">
@@ -98,7 +90,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking, onExploreStyles }) =>
                 className="group inline-flex items-center justify-center gap-2.5 px-7 py-4 rounded-full bg-white hover:bg-[#FAF7F2] border-2 border-[#1F4D2B] text-[#1F4D2B] font-extrabold text-base tracking-wide transition-all duration-200 hover:border-[#F05A24] hover:text-[#F05A24] active:scale-98 cursor-pointer"
               >
                 <span>Explore Our Styles</span>
-                <span className="text-[#F05A24] group-hover:rotate-45 transition-transform duration-200">↓</span>
+                <span className="text-[#F05A24] group-hover:rotate-45 transition-transform duration-200"><ArrowDown /></span>
               </button>
             </div>
 
@@ -118,7 +110,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking, onExploreStyles }) =>
 
               <div className="flex items-center gap-1.5">
                 <MapPin className="w-4 h-4 text-[#F05A24]" />
-                <span>Lekki Phase 1, Lagos</span>
+                <span>Iwaya Yaba, Lagos</span>
               </div>
 
               <span className="hidden sm:inline text-[#1F4D2B]/30">•</span>
@@ -133,10 +125,10 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking, onExploreStyles }) =>
 
           {/* Right Column: Fashion Campaign Visual Composition */}
           <div className="lg:col-span-5 relative mt-4 lg:mt-0 flex justify-center">
-            
+
             {/* The Main Visual Container with layered organic backdrop */}
             <div className="relative w-full max-w-[420px] sm:max-w-[460px] lg:max-w-none">
-              
+
               {/* Organic Green Backdrop Shape */}
               <div
                 className="absolute -inset-3 sm:-inset-4 bg-[#1F4D2B] rounded-[36px] sm:rounded-[44px] rotate-2 -z-10 shadow-lg"
@@ -189,9 +181,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking, onExploreStyles }) =>
                     KB
                   </div>
                   <div className="flex flex-col">
-                    <span className="text-[10px] font-extrabold tracking-widest uppercase text-[#80ED99]">
-                      EST. LAGOS
-                    </span>
+
                     <span className="text-xs sm:text-sm font-black font-display tracking-tight text-white">
                       NATURAL BEAUTY
                     </span>

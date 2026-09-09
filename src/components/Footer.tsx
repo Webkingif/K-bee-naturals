@@ -20,10 +20,10 @@ export const Footer: React.FC = () => {
   return (
     <footer className="bg-[#161815] text-white pt-16 pb-12 border-t-2 border-[#1F4D2B]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
+
         {/* Top Tier */}
         <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-8 pb-12 border-b border-stone-800">
-          
+
           {/* Brand Info */}
           <div>
             <BrandLogo variant="light" size="lg" className="mb-3" />
@@ -95,9 +95,7 @@ export const Footer: React.FC = () => {
             © 2026 KBee Naturals. All rights reserved.
           </div>
           <div className="flex items-center gap-4">
-            <span>14B Admiralty Way, Lekki Phase 1, Lagos</span>
-            <span>•</span>
-            <span>Zero Relaxers • 100% Crown</span>
+            <span>42 Iwaya Road, Onike Yaba, Lagos</span>
           </div>
         </div>
 

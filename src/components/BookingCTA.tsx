@@ -21,7 +21,7 @@ export const BookingCTA: React.FC<BookingCTAProps> = ({
       <div className="hidden md:block absolute top-1/2 right-12 -translate-y-1/2 w-72 h-72 rounded-full border-2 border-dashed border-white/20 pointer-events-none animate-[spin_60s_linear_infinite]" />
 
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
-        
+
         {/* Crown Accent Badge */}
         <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-black/20 backdrop-blur-md border border-white/25 text-xs font-black tracking-[0.25em] uppercase text-white mb-8">
           <Crown className="w-3.5 h-3.5 text-[#80ED99]" />
@@ -66,7 +66,7 @@ export const BookingCTA: React.FC<BookingCTAProps> = ({
 
         {/* Small Trust Microcopy */}
         <p className="mt-8 text-xs sm:text-sm text-white/80 font-semibold">
-          Convenient Lekki Phase 1 studio • VIP appointments available • Seamless WhatsApp booking
+          Convenient Iwaya Yaba • VIP appointments available • Seamless WhatsApp booking
         </p>
 
       </div>

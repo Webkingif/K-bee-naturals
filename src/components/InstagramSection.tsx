@@ -6,7 +6,7 @@ export const InstagramSection: React.FC = () => {
   return (
     <section id="instagram" className="py-20 lg:py-28 bg-[#FAF7F2] relative">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
+
         {/* Header */}
         <div className="text-center max-w-2xl mx-auto mb-12 sm:mb-16">
           <div className="inline-flex items-center gap-2 mb-3">
@@ -24,7 +24,7 @@ export const InstagramSection: React.FC = () => {
         </div>
 
         {/* 6-Image Instagram Grid */}
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 sm:gap-4 mb-12">
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 sm:gap-4 mb-11">
           {INSTAGRAM_POSTS.map((post) => (
             <a
               key={post.id}

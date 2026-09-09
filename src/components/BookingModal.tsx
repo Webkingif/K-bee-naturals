@@ -68,11 +68,6 @@ export const BookingModal: React.FC<BookingModalProps> = ({
             <X className="w-5 h-5" />
           </button>
 
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 text-xs font-bold text-[#80ED99] uppercase tracking-wider mb-2">
-            <Sparkles className="w-3.5 h-3.5" />
-            <span>Lekki Phase 1 Studio</span>
-          </div>
-
           <h3 id="booking-modal-title" className="font-display font-black text-2xl sm:text-3xl text-white">
             Reserve Your Crown Session
           </h3>
@@ -111,7 +106,7 @@ export const BookingModal: React.FC<BookingModalProps> = ({
                 </div>
                 <div className="flex justify-between">
                   <span className="text-stone-500">Location:</span>
-                  <span className="font-bold text-[#1F4D2B]">14B Admiralty Way, Lekki Phase 1</span>
+                  <span className="font-bold text-[#1F4D2B]">14B Admiralty Way, Iwaya Yaba</span>
                 </div>
               </div>
 
@@ -139,7 +134,7 @@ export const BookingModal: React.FC<BookingModalProps> = ({
           ) : (
             /* Booking Form */
             <form onSubmit={handleSubmit} className="space-y-6">
-              
+
               {/* 1. Select Service */}
               <div>
                 <label className="block text-xs font-black uppercase tracking-wider text-[#1F4D2B] mb-2">
@@ -153,11 +148,10 @@ export const BookingModal: React.FC<BookingModalProps> = ({
                         type="button"
                         key={srv.id}
                         onClick={() => setSelectedServiceId(srv.id)}
-                        className={`p-3.5 rounded-2xl text-left border transition-all cursor-pointer ${
-                          isSelected
-                            ? 'bg-white border-2 border-[#F05A24] shadow-sm ring-1 ring-[#F05A24]'
-                            : 'bg-white/60 border-stone-200 hover:bg-white'
-                        }`}
+                        className={`p-3.5 rounded-2xl text-left border transition-all cursor-pointer ${isSelected
+                          ? 'bg-white border-2 border-[#F05A24] shadow-sm ring-1 ring-[#F05A24]'
+                          : 'bg-white/60 border-stone-200 hover:bg-white'
+                          }`}
                       >
                         <div className="flex items-center justify-between mb-1">
                           <span className="font-display font-black text-sm text-[#161815]">
@@ -284,7 +278,7 @@ export const BookingModal: React.FC<BookingModalProps> = ({
                   <ArrowRight className="w-5 h-5" />
                 </button>
                 <p className="text-center text-[11px] text-stone-500 mt-2">
-                  No advance payment needed to book. Pay securely at the Lekki studio.
+                  No advance payment needed to book. Pay securely at the Iwaya Yaba.
                 </p>
               </div>
 

@@ -8,7 +8,7 @@ export const SocialProof: React.FC = () => {
     { text: 'HEALTHY HAIR', icon: Heart },
     { text: 'BOLD LOOKS', icon: Sun },
     { text: 'NATURAL BEAUTY', icon: Crown },
-    { text: 'LEKKI PHASE 1', icon: Sparkles },
+    { text: 'Iwaya Yaba', icon: Sparkles },
     { text: 'LOVE YOUR CROWN', icon: Heart },
     { text: 'ORGANIC BOTANICALS', icon: Sun }
   ];

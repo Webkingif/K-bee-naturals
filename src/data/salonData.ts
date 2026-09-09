@@ -183,7 +183,7 @@ export const BENEFITS_DATA: Benefit[] = [
     number: '04',
     title: 'Confidence',
     subtitle: 'Vibe',
-    description: 'Step out of our Lekki studio walking taller, glowing brighter, and completely in love with the majestic versatility of your crown.',
+    description: 'Step out of our Yaba studio walking taller, glowing brighter, and completely in love with the majestic versatility of your crown.',
     iconName: 'Heart'
   }
 ];
@@ -204,15 +204,15 @@ export const TESTIMONIALS_DATA: Testimonial[] = [
     name: 'Amina Adeleke',
     location: 'Victoria Island, Lagos',
     style: 'Knotless Bohemian Braids',
-    text: 'KBee Naturals completely transformed how I see my 4C hair. Zero pain during braiding, edges completely safe, and the stylists are so warm and knowledgeable. I walked out of Lekki Phase 1 feeling like an African queen!',
+    text: 'KBee Naturals completely transformed how I see my 4C hair. Zero pain during braiding, edges completely safe, and the stylists are so warm and knowledgeable. I walked out of Iwaya Yaba feeling like an African queen!',
     rating: 5,
-    avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=80',
+    avatar: 'https://images.unsplash.com/photo-1688592969417-953dd3c2b9d8?auto=format&fit=crop&w=200&q=80',
     date: 'February 2026'
   },
   {
     id: 'rev-2',
     name: 'Chimamanda Eze',
-    location: 'Lekki Phase 1, Lagos',
+    location: 'Iwaya Yaba, Lagos',
     style: 'Nano-Steam Moisture Therapy & Silk Twist',
     text: 'My hair had suffered so much heat damage from other salons. The team at KBee did a thorough porosity test before touching a single strand. The steam treatment made my hair soft like butter. There is no other salon for me in Lagos.',
     rating: 5,
@@ -234,7 +234,7 @@ export const TESTIMONIALS_DATA: Testimonial[] = [
 export const INSTAGRAM_POSTS: InstagramPost[] = [
   {
     id: 'ig-1',
-    image: 'https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?auto=format&fit=crop&w=600&q=80',
+    image: 'https://images.unsplash.com/photo-1688592969417-953dd3c2b9d8?auto=format&fit=crop&w=600&q=80',
     likes: 1842,
     comments: 94,
     caption: 'Tension-free knotless perfection. 🍯 No pain, all glory. Book your slot for the weekend!',
@@ -285,7 +285,7 @@ export const INSTAGRAM_POSTS: InstagramPost[] = [
 export const SALON_INFO = {
   name: 'KBee Naturals',
   tagline: 'Natural hair. Bold looks.',
-  address: '14B Admiralty Way, Lekki Phase 1, Lagos, Nigeria',
+  address: '42, Iwaya road, Onike Yaba, Lagos, Nigeria',
   landmark: 'Opposite Ebeano Supermarket, 2nd Floor',
   phonePrimary: '+234 812 345 6789',
   phoneSecondary: '+234 901 888 2333',
